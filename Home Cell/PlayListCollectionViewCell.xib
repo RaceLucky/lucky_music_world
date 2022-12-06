@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Bold.ttf">
+            <string>OpenSans-Bold</string>
+        </array>
+        <array key="OpenSans-Medium.ttf">
+            <string>OpenSans-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PlayListCollectionViewCell" id="gTV-IL-0wX" customClass="PlayListCollectionViewCell" customModule="MyMusicApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="215" height="300"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="215" height="300"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Rh7-BW-qY6">
+                        <rect key="frame" x="0.0" y="0.0" width="215" height="202"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="202" id="lur-kb-KW6"/>
+                        </constraints>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="j5w-cZ-qaF">
+                        <rect key="frame" x="5" y="218" width="208" height="82"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Welcome back!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q3B-L5-NFH">
+                                <rect key="frame" x="0.0" y="0.0" width="208" height="41"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What do you feel like today?" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7QQ-s0-Mus">
+                                <rect key="frame" x="0.0" y="41" width="208" height="41"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Medium" family="Open Sans" pointSize="14"/>
+                                <color key="textColor" red="0.64705882349999999" green="0.64705882349999999" blue="0.64705882349999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="j5w-cZ-qaF" secondAttribute="bottom" id="Fcn-fa-JL3"/>
+                <constraint firstItem="Rh7-BW-qY6" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Pij-54-RaQ"/>
+                <constraint firstItem="j5w-cZ-qaF" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="RcN-bu-grZ"/>
+                <constraint firstAttribute="trailing" secondItem="Rh7-BW-qY6" secondAttribute="trailing" id="cfM-F9-F8T"/>
+                <constraint firstItem="j5w-cZ-qaF" firstAttribute="top" secondItem="Rh7-BW-qY6" secondAttribute="bottom" constant="16" id="eYI-S9-oJx"/>
+                <constraint firstItem="Rh7-BW-qY6" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="fKN-JE-xMt"/>
+                <constraint firstAttribute="trailing" secondItem="j5w-cZ-qaF" secondAttribute="trailing" constant="2" id="jdW-BU-YXJ"/>
+            </constraints>
+            <size key="customSize" width="215" height="300"/>
+            <connections>
+                <outlet property="descriptionLabel" destination="7QQ-s0-Mus" id="NpJ-UZ-vgk"/>
+                <outlet property="iconImageView" destination="Rh7-BW-qY6" id="qAa-Cc-Y2z"/>
+                <outlet property="titleLabel" destination="Q3B-L5-NFH" id="Tvr-Ha-8oo"/>
+            </connections>
+            <point key="canvasLocation" x="251.44927536231887" y="163.39285714285714"/>
+        </collectionViewCell>
+    </objects>
+</document>
