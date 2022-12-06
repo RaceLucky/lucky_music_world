@@ -211,4 +211,12 @@ extension HomeController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 76
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+        let playerController = storyBoard.instantiateViewController(withIdentifier: "PlayerController") as! PlayerController
+        let favouriteData = favourite[indexPath.row]
+        playerController.songData = favouriteData
+        self.navigationController?.pushViewController(playerController, animated: true)
+    }
 }
