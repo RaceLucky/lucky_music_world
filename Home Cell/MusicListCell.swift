@@ -16,7 +16,7 @@ class MusicListCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        initialSetUp()
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -24,5 +24,15 @@ class MusicListCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+}
+
+extension MusicListCell {
     
+    private func initialSetUp() {
+        configureImage()
+    }
+    
+    private func configureImage() {
+        songImageView.layer.cornerRadius = 10
+    }
 }

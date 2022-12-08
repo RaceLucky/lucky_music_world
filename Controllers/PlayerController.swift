@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class PlayerController: UIViewController {
     
@@ -27,7 +28,7 @@ class PlayerController: UIViewController {
     var songData: MusicData!
     var selected: Bool = false
     var selectedPlayPauseButton: Bool = false
-
+    var player = AVAudioPlayer()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,8 +52,15 @@ class PlayerController: UIViewController {
     }
     
     @IBAction func playPauseButton(_ sender: Any) {
-     selectedPlayPauseButton.toggle()
-     playPauseButton.setImage(UIImage(named: selectedPlayPauseButton ? "ic_play" : "ic_pause"), for: .normal)
+     playPauseButton.isSelected.toggle()
+
+        if playPauseButton.isSelected {
+            playPauseButton.setImage(UIImage(named: "ic_play"), for: .normal)
+            player.play()
+        } else {
+            playPauseButton.setImage(UIImage(named: "ic_pause"), for: .normal)
+            player.pause()
+        }
     }
     
     @IBAction func moreButton(_ sender: Any) {
@@ -74,6 +82,17 @@ extension PlayerController {
     private func initialSetUp() {
         configureData()
         configureConstrain()
+        audioPath()
+    }
+    
+    private func audioPath() {
+        do {
+            let audioPath = Bundle.main.path(forResource: songData.music, ofType: songData.ext)
+           try player = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audioPath!) as URL)
+        } catch {
+            // Error
+            print("Your image is wrong")
+        }
     }
     
     private func configureData() {

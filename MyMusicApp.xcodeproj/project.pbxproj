@@ -23,6 +23,18 @@
 		BF840101293DF99500A93619 /* MusicListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8400FF293DF99500A93619 /* MusicListCell.swift */; };
 		BF840102293DF99500A93619 /* MusicListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF840100293DF99500A93619 /* MusicListCell.xib */; };
 		BF840109293E065200A93619 /* MusicData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF840108293E065200A93619 /* MusicData.swift */; };
+		BF8BA04A2941B069007B9A5A /* On My Way(PagalWorld.com.se).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF8BA0432941B068007B9A5A /* On My Way(PagalWorld.com.se).mp3 */; };
+		BF8BA04B2941B069007B9A5A /* Not You(PagalWorld.com.se).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF8BA0442941B068007B9A5A /* Not You(PagalWorld.com.se).mp3 */; };
+		BF8BA04C2941B069007B9A5A /* Extremes(PagalWorld.com.se).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF8BA0452941B068007B9A5A /* Extremes(PagalWorld.com.se).mp3 */; };
+		BF8BA04D2941B069007B9A5A /* Paradise(PagalWorld.com.se).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF8BA0462941B068007B9A5A /* Paradise(PagalWorld.com.se).mp3 */; };
+		BF8BA04E2941B069007B9A5A /* Man On The Moon(PagalWorld.com.se).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF8BA0472941B068007B9A5A /* Man On The Moon(PagalWorld.com.se).mp3 */; };
+		BF8BA04F2941B069007B9A5A /* Patli Kamariya Mor Hai Hai(PagalWorld.com.se).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF8BA0482941B069007B9A5A /* Patli Kamariya Mor Hai Hai(PagalWorld.com.se).mp3 */; };
+		BF8BA0552941B88B007B9A5A /* Ek Pyar Ka Naghma Hai - Shor 128 Kbps.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF8BA0512941B88A007B9A5A /* Ek Pyar Ka Naghma Hai - Shor 128 Kbps.mp3 */; };
+		BF8BA0562941B88B007B9A5A /* 04. Senorita.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF8BA0522941B88B007B9A5A /* 04. Senorita.mp3 */; };
+		BF8BA0572941B88B007B9A5A /* Mera Dil Ye Pukare Aaja (Remix) DJ Usman Bhatti_192(PagalWorld.com.se).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF8BA0532941B88B007B9A5A /* Mera Dil Ye Pukare Aaja (Remix) DJ Usman Bhatti_192(PagalWorld.com.se).mp3 */; };
+		BF8BA0582941B88B007B9A5A /* 07.%20Aal%20Izz%20Well%20-%20Remix.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF8BA0542941B88B007B9A5A /* 07.%20Aal%20Izz%20Well%20-%20Remix.mp3 */; };
+		BF97719F29406A9B00178C13 /* DummyMusicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF97719E29406A9B00178C13 /* DummyMusicController.swift */; };
+		BF9771AF29407B5500178C13 /* Baby(PaglaSongs).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF9771AE29407B5500178C13 /* Baby(PaglaSongs).mp3 */; };
 		BF9A2C85293E0E660032F2F7 /* CategoriesCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9A2C83293E0E660032F2F7 /* CategoriesCollectionCell.swift */; };
 		BF9A2C86293E0E660032F2F7 /* CategoriesCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF9A2C84293E0E660032F2F7 /* CategoriesCollectionCell.xib */; };
 		BF9A2C89293E0F180032F2F7 /* PlayListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9A2C87293E0F180032F2F7 /* PlayListCollectionViewCell.swift */; };
@@ -70,6 +82,18 @@
 		BF8400FF293DF99500A93619 /* MusicListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicListCell.swift; sourceTree = "<group>"; };
 		BF840100293DF99500A93619 /* MusicListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicListCell.xib; sourceTree = "<group>"; };
 		BF840108293E065200A93619 /* MusicData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicData.swift; sourceTree = "<group>"; };
+		BF8BA0432941B068007B9A5A /* On My Way(PagalWorld.com.se).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "On My Way(PagalWorld.com.se).mp3"; sourceTree = "<group>"; };
+		BF8BA0442941B068007B9A5A /* Not You(PagalWorld.com.se).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Not You(PagalWorld.com.se).mp3"; sourceTree = "<group>"; };
+		BF8BA0452941B068007B9A5A /* Extremes(PagalWorld.com.se).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Extremes(PagalWorld.com.se).mp3"; sourceTree = "<group>"; };
+		BF8BA0462941B068007B9A5A /* Paradise(PagalWorld.com.se).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Paradise(PagalWorld.com.se).mp3"; sourceTree = "<group>"; };
+		BF8BA0472941B068007B9A5A /* Man On The Moon(PagalWorld.com.se).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Man On The Moon(PagalWorld.com.se).mp3"; sourceTree = "<group>"; };
+		BF8BA0482941B069007B9A5A /* Patli Kamariya Mor Hai Hai(PagalWorld.com.se).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Patli Kamariya Mor Hai Hai(PagalWorld.com.se).mp3"; sourceTree = "<group>"; };
+		BF8BA0512941B88A007B9A5A /* Ek Pyar Ka Naghma Hai - Shor 128 Kbps.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ek Pyar Ka Naghma Hai - Shor 128 Kbps.mp3"; sourceTree = "<group>"; };
+		BF8BA0522941B88B007B9A5A /* 04. Senorita.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "04. Senorita.mp3"; sourceTree = "<group>"; };
+		BF8BA0532941B88B007B9A5A /* Mera Dil Ye Pukare Aaja (Remix) DJ Usman Bhatti_192(PagalWorld.com.se).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mera Dil Ye Pukare Aaja (Remix) DJ Usman Bhatti_192(PagalWorld.com.se).mp3"; sourceTree = "<group>"; };
+		BF8BA0542941B88B007B9A5A /* 07.%20Aal%20Izz%20Well%20-%20Remix.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "07.%20Aal%20Izz%20Well%20-%20Remix.mp3"; sourceTree = "<group>"; };
+		BF97719E29406A9B00178C13 /* DummyMusicController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyMusicController.swift; sourceTree = "<group>"; };
+		BF9771AE29407B5500178C13 /* Baby(PaglaSongs).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Baby(PaglaSongs).mp3"; sourceTree = "<group>"; };
 		BF9A2C83293E0E660032F2F7 /* CategoriesCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCollectionCell.swift; sourceTree = "<group>"; };
 		BF9A2C84293E0E660032F2F7 /* CategoriesCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoriesCollectionCell.xib; sourceTree = "<group>"; };
 		BF9A2C87293E0F180032F2F7 /* PlayListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -108,11 +132,13 @@
 			isa = PBXGroup;
 			children = (
 				BF84010A293E065700A93619 /* Helper */,
-				BF840103293DF99E00A93619 /* Home Cell */,
-				BF8400FE293DDBF600A93619 /* Controllers */,
-				BF546EB9293DC2B6000481DE /* Resources */,
 				BF546E88293DC058000481DE /* MyMusicApp */,
+				BF9771A029406AB100178C13 /* Dummy */,
+				BF840103293DF99E00A93619 /* Home Cell */,
 				BF546E9F293DC05B000481DE /* MyMusicAppTests */,
+				BF9771A129406B6000178C13 /* StoryBoard */,
+				BF8400FE293DDBF600A93619 /* Controllers */,
+				BF9771A4294070BA00178C13 /* Songs */,
 				BF546EA9293DC05B000481DE /* MyMusicAppUITests */,
 				BF546E87293DC058000481DE /* Products */,
 			);
@@ -133,8 +159,6 @@
 			children = (
 				BF546E89293DC058000481DE /* AppDelegate.swift */,
 				BF546E8B293DC058000481DE /* SceneDelegate.swift */,
-				BF546E8D293DC058000481DE /* ViewController.swift */,
-				BF546E8F293DC058000481DE /* Main.storyboard */,
 				BF546E92293DC05B000481DE /* Assets.xcassets */,
 				BF546E94293DC05B000481DE /* LaunchScreen.storyboard */,
 				BF546E97293DC05B000481DE /* Info.plist */,
@@ -170,6 +194,7 @@
 		BF8400FE293DDBF600A93619 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				BF546E8D293DC058000481DE /* ViewController.swift */,
 				BF8400FB293DDBEC00A93619 /* HomeController.swift */,
 				BFD13608293E331900DA5345 /* PlayListController.swift */,
 				BF47C10F293F2E6700C86F38 /* PlayerController.swift */,
@@ -193,12 +218,47 @@
 		BF84010A293E065700A93619 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				BF546EB9293DC2B6000481DE /* Resources */,
 				BF840108293E065200A93619 /* MusicData.swift */,
 				BF9A2C8B293E208C0032F2F7 /* Categories.swift */,
 				BFD13606293E2C2D00DA5345 /* PlayList.swift */,
 				BF47C111293F588F00C86F38 /* Device.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		BF9771A029406AB100178C13 /* Dummy */ = {
+			isa = PBXGroup;
+			children = (
+				BF97719E29406A9B00178C13 /* DummyMusicController.swift */,
+			);
+			path = Dummy;
+			sourceTree = "<group>";
+		};
+		BF9771A129406B6000178C13 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				BF546E8F293DC058000481DE /* Main.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		BF9771A4294070BA00178C13 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				BF8BA0452941B068007B9A5A /* Extremes(PagalWorld.com.se).mp3 */,
+				BF8BA0472941B068007B9A5A /* Man On The Moon(PagalWorld.com.se).mp3 */,
+				BF8BA0442941B068007B9A5A /* Not You(PagalWorld.com.se).mp3 */,
+				BF8BA0432941B068007B9A5A /* On My Way(PagalWorld.com.se).mp3 */,
+				BF8BA0462941B068007B9A5A /* Paradise(PagalWorld.com.se).mp3 */,
+				BF8BA0482941B069007B9A5A /* Patli Kamariya Mor Hai Hai(PagalWorld.com.se).mp3 */,
+				BF9771AE29407B5500178C13 /* Baby(PaglaSongs).mp3 */,
+				BF8BA0522941B88B007B9A5A /* 04. Senorita.mp3 */,
+				BF8BA0542941B88B007B9A5A /* 07.%20Aal%20Izz%20Well%20-%20Remix.mp3 */,
+				BF8BA0512941B88A007B9A5A /* Ek Pyar Ka Naghma Hai - Shor 128 Kbps.mp3 */,
+				BF8BA0532941B88B007B9A5A /* Mera Dil Ye Pukare Aaja (Remix) DJ Usman Bhatti_192(PagalWorld.com.se).mp3 */,
+			);
+			path = Songs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,13 +368,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF9771AF29407B5500178C13 /* Baby(PaglaSongs).mp3 in Resources */,
 				BF546E96293DC05B000481DE /* LaunchScreen.storyboard in Resources */,
+				BF8BA04E2941B069007B9A5A /* Man On The Moon(PagalWorld.com.se).mp3 in Resources */,
 				BF546E93293DC05B000481DE /* Assets.xcassets in Resources */,
+				BF8BA04C2941B069007B9A5A /* Extremes(PagalWorld.com.se).mp3 in Resources */,
+				BF8BA0562941B88B007B9A5A /* 04. Senorita.mp3 in Resources */,
+				BF8BA04A2941B069007B9A5A /* On My Way(PagalWorld.com.se).mp3 in Resources */,
 				BF546E91293DC058000481DE /* Main.storyboard in Resources */,
+				BF8BA04B2941B069007B9A5A /* Not You(PagalWorld.com.se).mp3 in Resources */,
+				BF8BA04D2941B069007B9A5A /* Paradise(PagalWorld.com.se).mp3 in Resources */,
+				BF8BA0572941B88B007B9A5A /* Mera Dil Ye Pukare Aaja (Remix) DJ Usman Bhatti_192(PagalWorld.com.se).mp3 in Resources */,
+				BF8BA04F2941B069007B9A5A /* Patli Kamariya Mor Hai Hai(PagalWorld.com.se).mp3 in Resources */,
+				BF8BA0552941B88B007B9A5A /* Ek Pyar Ka Naghma Hai - Shor 128 Kbps.mp3 in Resources */,
 				BF9A2C8A293E0F180032F2F7 /* PlayListCollectionViewCell.xib in Resources */,
 				BF840102293DF99500A93619 /* MusicListCell.xib in Resources */,
 				BF9A2C86293E0E660032F2F7 /* CategoriesCollectionCell.xib in Resources */,
 				BF8400FA293DC69C00A93619 /* Open_Sans in Resources */,
+				BF8BA0582941B88B007B9A5A /* 07.%20Aal%20Izz%20Well%20-%20Remix.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +412,7 @@
 			files = (
 				BF47C112293F588F00C86F38 /* Device.swift in Sources */,
 				BF9A2C89293E0F180032F2F7 /* PlayListCollectionViewCell.swift in Sources */,
+				BF97719F29406A9B00178C13 /* DummyMusicController.swift in Sources */,
 				BFD13609293E331900DA5345 /* PlayListController.swift in Sources */,
 				BF47C110293F2E6700C86F38 /* PlayerController.swift in Sources */,
 				BFD13607293E2C2D00DA5345 /* PlayList.swift in Sources */,

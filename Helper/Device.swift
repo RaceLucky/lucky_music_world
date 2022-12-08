@@ -9,7 +9,6 @@ import Foundation
 import UIKit
 
 extension UIDevice {
-    
     var hasNotch: Bool {
       var bottom = UIApplication.shared.keyWindow?.safeAreaInsets.bottom ?? 0
       

@@ -9,7 +9,6 @@ import UIKit
 
 class PlayListController: UIViewController {
 
-    
     @IBOutlet weak var heartButton: UIButton!
     @IBOutlet weak var playPauseButton: UIButton!
     @IBOutlet weak var moreButton: UIButton!
@@ -23,17 +22,17 @@ class PlayListController: UIViewController {
     var musicData: PlayList!
     var selected: Bool = false
     
-    var favourite = [MusicData(title: "Bye Bye", description: "Marshmello, Juice WRLD", icon: "bye_bye", duration: "2:09"),
-                     MusicData(title: "I Like You", description: "Post Malone, Doja Cat", icon: "like_you", duration: "4:03"),
-                     MusicData(title: "Fountains", description: "Drake, Tems", icon: "fountains", duration: "3:18"),
-                     MusicData(title: "Bye Bye", description: "Marshmello, Juice WRLD", icon: "bye_bye", duration: "2:09"),
-                     MusicData(title: "I Like You", description: "Post Malone, Doja Cat", icon: "ic_dummy_7", duration: "4:03"),
-                      MusicData(title: "Fountains", description: "Drake, Tems", icon: "ic_dummy_8", duration: "3:18"),
-                     MusicData(title: "You right", description: "Doja Cat, The Weeknd", icon: "ic_dummy_9", duration: "5:03"),
-                     MusicData(title: "2 AM", description: "Arizona Zervas", icon: "fountains", duration: "3:18"),
-                     MusicData(title: "Baddest", description: "2 Chainz, Chris Brown", icon: "ic_dummy_10", duration: "9:09"),
-                     MusicData(title: "True Love", description: "Kanye West", icon: "ic_dummy_11", duration: "4:03"),
-                      MusicData(title: "Hands on you", description: "Austin George", icon: "ic_dummy_12", duration: "9:18")
+    var favourite = [MusicData(title: "Patli Kamariya Mor Hai Hai", description: "Trending instagram song", icon: "patli", duration: "4:09", music: "Patli Kamariya Mor Hai Hai(PagalWorld.com.se)", ext: ".mp3"),
+                     MusicData(title: "Extremes", description: "Alan Walker song", icon: "extremes", duration: "4:03", music: "Extremes(PagalWorld.com.se)", ext: ".mp3"),
+                     MusicData(title: "Man On The Moon", description: "Alan Walker song", icon: "fountains", duration: "3:18", music: "Man On The Moon(PagalWorld.com.se)", ext: ".mp3"),
+                     MusicData(title: "Not You", description: "Alan Walker song", icon: "not_you", duration: "2:09", music: "Not You(PagalWorld.com.se)", ext: ".mp3"),
+                     MusicData(title: "On My Way", description: "Alan Walker song", icon: "on_way", duration: "4:03", music: "On My Way(PagalWorld.com.se)", ext: ".mp3"),
+                     MusicData(title: "Paradise", description: "Alan Walker song", icon: "paradise", duration: "3:18", music: "Paradise(PagalWorld.com.se)", ext: ".mp3"),
+                     MusicData(title: "Baby", description: "Justin Biber song", icon: "baby", duration: "5:03", music: "Baby(PaglaSongs)", ext: ".mp3"),
+                     MusicData(title: "Senorita", description: "Senorita famous", icon: "pagalworld", duration: "3:18", music: "04. Senorita", ext: ".mp3"),
+                     MusicData(title: "All is well - Remix", description: "All is well", icon: "pagalworld", duration: "5:09", music: "07.%20Aal%20Izz%20Well%20-%20Remix", ext: ".mp3"),
+                     MusicData(title: "Ek Pyar Ka Naghma Hai", description: "Ek Pyar Ka Naghma Hai - Shor", icon: "pyar_nagma", duration: "4:03", music: "Ek Pyar Ka Naghma Hai - Shor 128 Kbps", ext: ".mp3"),
+                      MusicData(title: "Mera Dil Ye Pukare Aaja", description: "Instagram Trending song", icon: "aaja", duration: "9:18", music: "Mera Dil Ye Pukare Aaja (Remix) DJ Usman Bhatti_192(PagalWorld.com.se)", ext: ".mp3")
     ]
     
     var selectIndex = 0
@@ -51,6 +50,7 @@ class PlayListController: UIViewController {
     }
     
     @IBAction func playPauseButton(_ sender: Any) {
+        
     }
     
     @IBAction func heartButton(_ sender: Any) {
